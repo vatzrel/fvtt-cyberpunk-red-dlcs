@@ -1,0 +1,92 @@
+{
+    "name": "cp-red-dlcs",
+    "title": "Cyberpunk RED DLCs",
+    "description": "A module containing Cyberpunk RED free DLCs published by R. Talsorian Games.",
+    "version": "1.0.0",
+    "manifestPlusVersion": "1.0.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "vatzrel",
+            "email": "",
+            "url": "https://gitlab.com/vatzrel"
+        }
+    ],
+    "packs": [
+        {
+            "type": "RollTable",
+            "label": "Night City Weather",
+            "module": "cp-red-dlcs",
+            "path": "packs/weather.db",
+            "name": "weather",
+            "system": "cyberpunk-red-core"
+        },
+        {
+            "type": "JournalEntry",
+            "label": "Conditions & Weather",
+            "module": "cp-red-dlcs",
+            "path": "packs/conditions-and-weather.db",
+            "name": "conditions-and-weather",
+            "system": "cyberpunk-red-core"
+        },
+        {
+            "type": "JournalEntry",
+            "label": "Temperature",
+            "module": "cp-red-dlcs",
+            "path": "packs/temperature.db",
+            "name": "temperature",
+            "system": "cyberpunk-red-core"
+        },
+        {
+            "type": "Item",
+            "label": "Woodchipper’s Garage",
+            "module": "cp-red-dlcs",
+            "path": "packs/woodchippers-garage.db",
+            "name": "woodchippers-garage",
+            "system": "cyberpunk-red-core"
+        },
+        {
+            "type": "Item",
+            "label": "Must Have Cyberware Deals",
+            "module": "cp-red-dlcs",
+            "path": "packs/must-have-cyberware-deals.db",
+            "name": "must-have-cyberware-deals",
+            "system": "cyberpunk-red-core"
+        },
+        {
+            "type": "Item",
+            "label": "The 12 Days of Gunmas",
+            "module": "cp-red-dlcs",
+            "path": "packs/the-twelve-days-of-gunmas.db",
+            "name": "the-twelve-days-of-gunmas",
+            "system": "cyberpunk-red-core"
+        },
+        {
+            "type": "Cards",
+            "label": "Night City Tarot",
+            "module": "cp-red-dlcs",
+            "path": "packs/nc-tarot.db",
+            "name": "nc-tarot",
+            "system": "cyberpunk-red-core"
+        }
+    ],
+    "manifest": "https://gitlab.com/vatzrel/cp-red-dlcs/-/blob/master/module.json",
+    "download": "https://gitlab.com/vatzrel/cp-red-dlcs/-/archive/master/cp-red-dlcs-master.zip",
+    "id": "cp-red-dlcs",
+    "relationships": {
+        "systems": [
+          {
+            "id": "cyberpunk-red-core",
+            "type": "system",
+            "manifest": "https://gitlab.com/JasonAlanTerry/fvtt-cyberpunk-red-core/-/blob/dev/system.json",
+            "compatibility": {
+              "minimum": "0.84.0"
+            }
+          }
+        ]
+    }
+}
