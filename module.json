@@ -13,7 +13,7 @@
         {
             "name": "vatzrel",
             "email": "",
-            "url": "https://gitlab.com/vatzrel"
+            "url": "https://github.com/vatzrel"
         }
     ],
     "packs": [
@@ -74,8 +74,6 @@
             "system": "cyberpunk-red-core"
         }
     ],
-    "manifest": "https://gitlab.com/vatzrel/cp-red-dlcs/-/blob/master/module.json",
-    "download": "https://gitlab.com/vatzrel/cp-red-dlcs/-/archive/master/cp-red-dlcs-master.zip",
     "id": "cp-red-dlcs",
     "relationships": {
         "systems": [
