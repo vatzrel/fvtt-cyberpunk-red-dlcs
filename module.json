@@ -75,6 +75,11 @@
         }
     ],
     "id": "cp-red-dlcs",
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced",
+    "license": "LICENSE",
+    "readme": "README.md",
     "relationships": {
         "systems": [
           {
