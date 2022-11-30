@@ -75,8 +75,8 @@
         }
     ],
     "id": "cp-red-dlcs",
-    "url": "This is auto replaced",
-    "manifest": "This is auto replaced",
+    "url": "https://github.com/vatzrel/fvtt-cyberpunk-red-dlcs",
+    "manifest": "https://github.com/vatzrel/fvtt-cyberpunk-red-dlcs/releases/latest/download/module.json",
     "download": "This is auto replaced",
     "license": "LICENSE",
     "readme": "README.md",
