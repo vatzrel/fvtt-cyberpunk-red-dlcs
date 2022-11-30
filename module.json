@@ -72,6 +72,14 @@
             "path": "packs/nc-tarot.db",
             "name": "nc-tarot",
             "system": "cyberpunk-red-core"
+        },
+        {
+            "type": "Item",
+            "label": "Spinning Your Wheels",
+            "module": "cp-red-dlcs",
+            "path": "packs/spinning-your-wheels.db",
+            "name": "spinning-your-wheels",
+            "system": "cyberpunk-red-core"
         }
     ],
     "id": "cp-red-dlcs",
